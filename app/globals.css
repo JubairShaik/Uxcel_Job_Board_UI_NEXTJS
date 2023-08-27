@@ -12,7 +12,9 @@ body{
 }
 
 
-
+.drop-shadow-lg {
+  --tw-drop-shadow: drop-shadow(0 10px 8px rgba(0, 0, 0, 0.04)) drop-shadow(0 4px 3px rgba(0, 0, 0, 0.4));
+}
 
 
 
@@ -25,7 +27,7 @@ body{
 
   /* Head Text */
   .head-text {
-    @apply text-heading2-bold text-light-1;
+    @apply text-slate-400 text-[2rem];
   }
 
   /* Activity */
@@ -44,7 +46,7 @@ body{
   }
 
   .community-card_btn {
-    @apply rounded-lg bg-primary-500 px-5 py-1.5 text-small-regular !text-light-1 !important;
+    @apply rounded-lg bg-primary-500 px-5 py-1.5 !text-light-1 !important;
   }
 
   /* thread card  */
@@ -74,7 +76,7 @@ body{
   }
 
   .topbar {
-    @apply fixed top-0 z-30 flex w-full items-center justify-between bg-dark-2 sm:px-20   px-6 py-3;
+    @apply fixed top-0 z-30 flex w-full items-center justify-between bg-slate-200  shadow-md sm:px-20   px-6 py-3;
   }
 
   .bottombar {
@@ -90,11 +92,12 @@ body{
   }
 
   .leftsidebar {
-    @apply sticky left-0 top-0 z-20 flex h-screen w-fit flex-col justify-between overflow-auto border-r border-r-dark-4 bg-dark-2 pb-5 pt-28 max-md:hidden;
+    @apply sticky left-0 top-0 z-20  max-w-[200px] w-full  flex h-screen   flex-col justify-between overflow-auto      bg-dark-2 pb-5 pt-[6rem] max-md:hidden
+    ;
   }
 
   .leftsidebar_link {
-    @apply relative flex justify-start gap-4 rounded-lg py-3 px-6;
+    @apply relative flex justify-start   px-5   gap-3 rounded-lg py-2   ;
   }
 
   .pagination {
@@ -102,7 +105,9 @@ body{
   }
 
   .rightsidebar {
-    @apply sticky right-0 top-0 z-20 flex h-screen w-fit flex-col justify-between gap-12 overflow-auto border-l border-l-dark-4 bg-dark-2 px-10 pb-6 pt-28 max-xl:hidden;
+    @apply  sticky right-0 top-0 z-20 flex h-screen w-fit flex-col justify-between
+     gap-12 overflow-auto border-l border-l-dark-4 bg-dark-2 
+      pt-28 max-xl:hidden ;
   }
 }
 
@@ -172,5 +177,5 @@ body{
 }
 
 .comment-form_btn {
-  @apply rounded-3xl bg-primary-500 px-8 py-2 !text-small-regular text-light-1 max-xs:w-full !important;
+  @apply rounded-3xl bg-primary-500 px-8 py-2   text-light-1 max-xs:w-full !important;
 }
