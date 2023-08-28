@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
       <main className='flex flex-row '>
         <LeftSidebar />
 
-         <section className=' sm:p-3 p-5 my-[3rem] sm:mt-[5rem]  w-full'>
+         <section className=' sm:p-3 p-1 my-[3rem] sm:mt-[5rem]  w-full'>
             <div className='w-full mt-3'>{children}</div>
          </section>
         

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const CourseBanner = () => {
   return (
-    <div className="relative w-full rounded-2xl  items-center z-0 overflow-hidden md:bg-violet-600 md:text-white flexCenter  mb-6  p-6  md:p-8 ">
+    <div className="relative w-full rounded-2xl  items-center z-0 overflow-hidden md:bg-violet-600 md:text-white flexCenter  mb-1 md:mb-6  p-6  md:p-10 ">
       <div className="  flex md:flex-row-reverse  flex-col  gap-10 items-center justify-center ">
 
       <div className=" flex items-center justify-center filter drop-shadow-2xl md:w-[500px]   w-[300px] flex-auto">
@@ -58,7 +58,7 @@ const CourseBanner = () => {
 
           <div className="flex items-center md:items-start mt-4  gap-6 justify-center md:justify-start my-1   ">
              <button 
-             className=" px-5  rounded-md py-2 text-slate-600  text-sm md:text-lg font-semibold bg-slate-200"
+             className=" px-5  rounded-md py-2 text-slate-100  text-sm md:text-lg font-normal md:font-semibold bg-violet-500"
              >
                 Start Learing for Free
              </button>

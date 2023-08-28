@@ -130,3 +130,80 @@ export const features = [
   },
 
 ];
+
+
+
+export const job_listings = [
+  {
+      icon: "/blockchain.png",
+      company: "Grapheec",
+      posted: "6d ago",
+      position: "Full Stack Designer",
+      location: "Remote | Anywhere",
+      employment_type: "Contract"
+  },
+  {
+      company: "Twin Win Games",
+      posted: "1y ago",
+      position: "Animator (After Effects)",
+      location: "Remote | Ukraine Only",
+      employment_type: "Full-time",icon: "/blockchain.png",
+  },
+  {
+      company: "MillerKnoll",
+      posted: "2d ago",
+      position: "Digital Product Designer",
+      location: "Remote | United States Only",
+      employment_type: "Full-time",icon: "/blockchain.png",
+  },
+  {
+      company: "Office146 AI Venture Lab",
+      posted: "2d ago",
+      position: "Web Designer ",
+      location: "Remote | Canada Only",
+      employment_type: "Internship",icon: "/blockchain.png",
+  },
+  {
+      company: "Police Digital Service",
+      posted: "2d ago",
+      position: "Principal UX Designer",
+      location: "Remote | United Kingdom Only",
+      employment_type: "Full-time",icon: "/blockchain.png",
+  },
+  {
+      company: "Wildfire",
+      posted: "2d ago",
+      position: "UI/UX Designer",
+      location: "Remote | United States Only",
+      employment_type: "Full-time",icon: "/blockchain.png",
+  },
+  {
+      company: "Siege Media",
+      posted: "2d ago",
+      position: "Visual Designer",
+      location: "Remote | United States Only",
+      employment_type: "Full-time",icon: "/blockchain.png",
+  },
+  {
+      company: "GovOS",
+      posted: "2d ago",
+      position: "UX Design Leader",
+      location: "Remote | United States Only",
+      employment_type: "Full-time",icon: "/blockchain.png",
+  },
+  {
+      company: "Ladder",
+      posted: "3d ago",
+      position: "Senior Product Designer",
+      location: "Remote | United States Only",
+      employment_type: "Full-time",icon: "/blockchain.png",
+  },
+  {
+      company: "DSMH LLC",
+      posted: "4d ago",
+      position: "UI/UX Designer",
+      location: "Remote | United States Only",
+      employment_type: "Contract",icon: "/blockchain.png",
+  },
+   
+]

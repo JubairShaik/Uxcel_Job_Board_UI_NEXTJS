@@ -5,6 +5,7 @@ import { cardData, features } from "@/constants";
 import Image from "next/image";
 import Certificate from "@/components/courses/Certificate";
 
+
 const LessonCard = ({ icon, title, content, index, totalLessons, active }) => (
   <div
     className={`flex flex-row sm:p-6 px-3  cursor-pointer  bg-slate-200  m-4 justify-between items-center rounded-[20px] ${
@@ -50,23 +51,29 @@ const LessonCard = ({ icon, title, content, index, totalLessons, active }) => (
 const page = () => {
   return (
     <main className="head-text text-left">
+
+      <div className="m-2 p-2">
       <CourseBanner
         name={cardData[0]?.courseName}
         courseInfo={cardData[0]?.courseInfo}
-        paraentStyles="flexCenter mb-6 h-72 sm:h-60 p-12 xs:p-4 xs:h-44 "
-        childStyles="md:text-4xl sm:text-2xl xs:text-xl  text-center"
+         
       />
+
+      </div>
+     
 
       {/* <Lessons/> */}
 
-      <div className=" mb-8">
+      <div className=" mb-8   ">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-4 md:gap-8">
           <div className="lg:col-span-8 col-span-1  space-y-4">
-            <span className="text-sm md:text-start text-center ">Level 1 </span>
-            <div className="flex items-center justify-between">
-              <h1 className="text-[1rem] md:text-xl font-semibold text-violet-500">
+
+            <p className="text-sm md:text-start text-center px-2  ml-2">Level 1 </p>
+
+            <div className="flex items-center md:justify-start justify-center  px-4  mb-6">
+              <h1 className="text-[1rem] md:text-xl font-semibold text-center text-violet-500">
                 Getting Started with BlockChain{" "}
-                <span className="bg-yellow-500 p-1 font-normal text-black text-sm rounded-lg">
+                <span className="bg-yellow-500 px-2  py-1 font-normal text-black text-sm rounded-lg">
                   Free
                 </span>
               </h1>
