@@ -207,3 +207,123 @@ export const job_listings = [
   },
    
 ]
+
+
+
+
+export const minSalary = [
+
+  { title: "$ Min ", value: "" },
+  { title: "15k", value: "15k" },
+  { title: "16k", value: "16k" },
+  { title: "17k", value: "17k" },
+  { title: "18k", value: "18k" },
+  { title: "19k", value: "19k" },
+
+];
+
+export const maxSalary = [
+
+  { title: "$ Max ", value: "" },
+  { title: "20k", value: "30k" },
+  { title: "20k", value: "30k" },
+  { title: "20k", value: "30k" },
+  { title: "20k", value: "30k" },
+  { title: "20k", value: "30k" },
+
+];
+
+
+
+export const job_details = [
+
+  
+  {
+    position: "Talent Pool Team Member",
+    company: {
+      name: "Grapheec",
+      description: "Grapheec is a dynamic and innovative company that values quality, productivity, and collaboration. We are committed to fostering a productive and collaborative work environment where we can achieve our shared objectives and deliver exceptional results.",
+      workplace: "Remote",
+      location: "USA, North America Only",
+      industry: "Education",
+      size: "11-20 employees",
+      level:"Senior"
+    },
+    jobType: "Full-time",
+    seniorityLevel: "Mid-level",
+    designRole: "Product Designer",
+    remote: true,
+    salary: "$85K - $95K",
+    responsibilities: [
+      "Complete assigned tasks within the specified timeframe, as the project management system outlines.",
+      "Deliver operational, tested, and functional code that meets the required specifications.",
+      "Act as the Directly Responsible Individual (DRI) for assigned tasks, taking full ownership and accountability for successful completion.",
+      "Proactively communicate updates, challenges, or queries to ensure team alignment and prompt resolution of potential issues.",
+      "Work independently, solve problems, and tackle challenges without assistance from internal staff or developers."
+    ],
+    requiredSkills: [
+      "UI/UX Design",
+      "HTML",
+      "CSS",
+      "React",
+      "Next.js"
+    ],
+    compensationModel: {
+      description: "Compensation is based on the completion of specified milestones rather than a traditional salary.",
+      flexibility: "Offers flexibility and the potential for higher earnings, depending on productivity and quality of work.",
+      payment: "Compensation will be promptly processed and sent upon successfully verifying completed milestones."
+    },
+    qualifications: [
+      "Ability to deliver functional code that executes as intended and provides the expected outcomes.",
+      "Strong problem-solving skills and the ability to work independently.",
+      "Effective and timely communication skills.",
+      "Proactive approach to problem-solving and efficient time management.",
+      "Commitment to maintaining the highest standards of quality in work."
+    ],
+    applicationProcess: {
+      description: "If you are comfortable with this approach to compensation and are interested in pursuing this position, we invite you to proceed to the next steps in the application process. Please contact us if you have any further questions or concerns. We value open communication and support you throughout the application process.",
+      contactEmail: "hello@grapheec.com"
+    },
+    thanksMessage: "Thank you for considering Grapheec as your next professional venture. We look forward to hearing from you and exploring the possibility of working together."
+  }
+  
+]
+
+
+
+
+
+export const  related_jobs   = [
+   
+  {
+      company: "Police Digital Service",
+      posted: "2d ago",
+      position: "Principal UX Designer",
+      location: "Remote | United Kingdom Only",
+      employment_type: "Full-time",icon: "/blockchain.png",
+  },
+  {
+      company: "Wildfire",
+      posted: "2d ago",
+      position: "UI/UX Designer",
+      location: "Remote | United States Only",
+      employment_type: "Full-time",icon: "/blockchain.png",
+  },
+  {
+      company: "Siege Media",
+      posted: "2d ago",
+      position: "Visual Designer",
+      location: "Remote | United States Only",
+      employment_type: "Full-time",icon: "/blockchain.png",
+  },
+  {
+      company: "GovOS",
+      posted: "2d ago",
+      position: "UX Design Leader",
+      location: "Remote | United States Only",
+      employment_type: "Full-time",icon: "/blockchain.png",
+  }
+  
+   
+]
+

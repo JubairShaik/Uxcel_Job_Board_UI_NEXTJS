@@ -15,7 +15,7 @@ const CourseCard = ({ imgURL, courseName, courseInfo, courseLevel, durationInHou
 
   return (
  
-    <div className="bg-slate-100 p-[24px] flex  gap-3 items-center md:items-start flex-row md:flex-col rounded-2xl max-h-[252px] w-full md:max-w-[410px] shadow-md">
+    <div className="bg-white p-[24px] flex  gap-3 items-center md:items-start flex-row md:flex-col rounded-2xl max-h-[252px] w-full md:max-w-[410px] shadow-md">
 
       <div className="mb-2">
         <Image src={imgURL} width={60} height={60} alt={courseName} />

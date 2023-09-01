@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Certificate = () => {
   return (
-    <div className="bg-violet-200 p-[24px]  mb-14 bg-blue-600 flex  h-full  items-center md:items-start flex-row md:flex-col rounded-2xl  w-full   shadow-md">
+    <div className="bg-white p-[24px]  mb-14 bg-blue-600 flex  h-full  items-center md:items-start flex-row md:flex-col rounded-2xl  w-full   shadow-md">
       <div>
         <div className="flex items-center gap-3 justify-center">
           <Image

@@ -7,7 +7,7 @@ import { usePathname, useRouter } from "next/navigation"; //hooks
 
 const RightSidebar = () => {
 
-  const [open, setIsOpen] = useState(true);
+  const [open, setIsOpen] = useState(false);
 
   const handleCloseSidebar = () => {
     setIsOpen(false);
