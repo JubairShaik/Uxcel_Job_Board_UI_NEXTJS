@@ -1,4 +1,6 @@
- 
+import { GlobeIcon } from '@heroicons/react/solid';
+
+
 export const cardData = [
   {
     imgURL: "/blockchain.png",
@@ -242,6 +244,9 @@ export const job_details = [
     position: "Talent Pool Team Member",
     company: {
       name: "Grapheec",
+      companyLogo:"/comp.png",
+      src:"/globe.png",
+      companyLink:"https://www.flaticon.com/",
       description: "Grapheec is a dynamic and innovative company that values quality, productivity, and collaboration. We are committed to fostering a productive and collaborative work environment where we can achieve our shared objectives and deliver exceptional results.",
       workplace: "Remote",
       location: "USA, North America Only",
@@ -288,10 +293,6 @@ export const job_details = [
   }
   
 ]
-
-
-
-
 
 export const  related_jobs   = [
    

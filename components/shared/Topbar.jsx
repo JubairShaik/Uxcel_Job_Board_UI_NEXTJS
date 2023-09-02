@@ -12,7 +12,7 @@ function Topbar() {
 
       <Link href='/' className='flex items-center gap-2'>
         <Image src='/vishnulogo.png' alt='logo' width={36} height={36} />
-        <p className='text-heading3-bold text-light-1 max-xs:hidden'>Vedic</p>
+        <p className='text-[1rem] md:font-bold md:text-[1.2rem] text-light-1 max-xs:hidden'>Vedic</p>
       </Link>
 
       <div className='flex  justify-center  items-center   gap-2'>

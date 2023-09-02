@@ -21,7 +21,7 @@ const JobDeatils = ({
 }) => (
 
 
-  <section className="flex flex-col sm:p-6  p-4 cursor-pointer  bg-white  shadow-md m-4 justify-between   rounded-[20px]  " >
+  <section className="flex flex-col sm:p-6  p-4 cursor-pointer  bg-white  md:shadow-md m-4 justify-between   rounded-[20px]  " >
 
 
   <div

@@ -7,6 +7,7 @@ import Filter from "@/components/Filter";
 import CompanyDetails from '@/components/CompanyDetails';
 import JobDetails from '@/components/JobDetails';
 import JobCard from '@/components/JobCard';
+import ApplyButton from './../../components/ApplyButton';
  
  
 
@@ -27,25 +28,13 @@ import {
 
 const page = () => {
   return (
-    <main className="head-text text-left">
+    <main className="head-text bg-white md:bg-slate-200 text-left">
       {/* <Lessons/> */}
 
-      <div className=" mb-8">
+      <div className=" pb-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-4 md:gap-8">
           <div className="lg:col-span-9 col-span-1  space-y-4">
-            <div className="flex items-center justify-between">
-              <h1 className="text-[1.4rem]  md:text-3xl  p-3 mt-4  md:ml-6 font-semibold  text-black ">
-                Job Details 
-              </h1>
-            </div>
             
-
-            
-
- 
-
-
-          
 
             {job_details.map((job, index) => (
               <JobDetails
@@ -60,9 +49,28 @@ const page = () => {
 
          
           <div className="lg:col-span-3 col-span-1">
-            <div className=" relative top-[2rem]  md:top-[.5rem]  p-2">
-              <CompanyDetails />
+
+            <div className=" relative top-[2rem] mb-5  md:top-[.5rem]  p-2">
+            {job_details.map((job, index) => (
+              <CompanyDetails
+                key={job.id}
+                {...job}
+                index={index}
+                // ApplyButton
+              />
+            ))}
             </div>
+
+            <div className=" relative lg:sticky top-[2rem]  md:top-[.5rem]  p-2">
+            {job_details.map((job, index) => (
+              <ApplyButton
+                key={job.id}
+                {...job}
+                index={index}
+              />
+            ))}
+            </div>
+            
           </div>
 
 
