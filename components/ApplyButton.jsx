@@ -1,6 +1,7 @@
 import Image from "next/image";
 
-import Link from "next/Link";
+import Link from 'next/link';
+
 
 function ApplyButton({ position, company, jobType }) {
   return (
