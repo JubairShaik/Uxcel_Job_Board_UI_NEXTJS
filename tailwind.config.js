@@ -6,6 +6,11 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    fontFamily:{
+      'sora':['Sora', 'sans-serif'],
+      'inter':['Inter', 'sans-serif'],
+
+    },
     container: {
       center: true,
       padding: "2rem",
@@ -62,3 +67,5 @@ module.exports = {
   },
   plugins: [require("tailwindcss-animate")],
 }
+
+

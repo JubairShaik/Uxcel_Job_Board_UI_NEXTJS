@@ -28,14 +28,14 @@ const CustomFilter = ({ title, options, setFilter } ) => {
         <div className="relative w-fit z-10">
 
 
-          <Listbox.Button className="custom-filter__btn">
+          <Listbox.Button className="custom-filter__btn  ">
 
             
             <span className="block truncate">{selected.title}</span>
             <Image 
               src="/arrow.png" 
-              width={17}
-              height={17}
+              width={15}
+              height={15}
               className="ml-4 object-contain"
               alt="  up down"
             />

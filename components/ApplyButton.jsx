@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 function ApplyButton({ position, company, jobType }) {
   return (
-    <div className="bg-white p-6  mt-10  rounded-2xl">
+    <div className="lg:block hidden bg-white p-6  mt-10  rounded-2xl">
       <div className=" flex flex-col ">
         <div className=" mt- ">
           <h2 className="text-[01rem] mt-2 md:text-[1rem] space-y-3  text-slate-900 font-bold">

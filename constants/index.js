@@ -90,7 +90,7 @@ export const sidebarLinks = [
 export const features = [
   {
     id: "feature-1",
-    icon: "/blockchain.png",
+    icon: "/block.png",
     title: "What is Blockchain",
     content: "Blockchain",
     totalLessons: 5,
@@ -137,7 +137,7 @@ export const features = [
 
 export const job_listings = [
   {
-      icon: "/blockchain.png",
+      icon: "/block.png",
       company: "Grapheec",
       posted: "6d ago",
       position: "Full Stack Designer",
@@ -149,14 +149,14 @@ export const job_listings = [
       posted: "1y ago",
       position: "Animator (After Effects)",
       location: "Remote | Ukraine Only",
-      employment_type: "Full-time",icon: "/blockchain.png",
+      employment_type: "Full-time",icon: "/block.png",
   },
   {
       company: "MillerKnoll",
       posted: "2d ago",
       position: "Digital Product Designer",
       location: "Remote | United States Only",
-      employment_type: "Full-time",icon: "/blockchain.png",
+      employment_type: "Full-time",icon: "/block.png",
   },
   {
       company: "Office146 AI Venture Lab",
@@ -170,42 +170,42 @@ export const job_listings = [
       posted: "2d ago",
       position: "Principal UX Designer",
       location: "Remote | United Kingdom Only",
-      employment_type: "Full-time",icon: "/blockchain.png",
+      employment_type: "Full-time",icon: "/block.png",
   },
   {
       company: "Wildfire",
       posted: "2d ago",
       position: "UI/UX Designer",
       location: "Remote | United States Only",
-      employment_type: "Full-time",icon: "/blockchain.png",
+      employment_type: "Full-time",icon: "/block.png",
   },
   {
       company: "Siege Media",
       posted: "2d ago",
       position: "Visual Designer",
       location: "Remote | United States Only",
-      employment_type: "Full-time",icon: "/blockchain.png",
+      employment_type: "Full-time",icon: "/block.png",
   },
   {
       company: "GovOS",
       posted: "2d ago",
       position: "UX Design Leader",
       location: "Remote | United States Only",
-      employment_type: "Full-time",icon: "/blockchain.png",
+      employment_type: "Full-time",icon: "/block.png",
   },
   {
       company: "Ladder",
       posted: "3d ago",
       position: "Senior Product Designer",
       location: "Remote | United States Only",
-      employment_type: "Full-time",icon: "/blockchain.png",
+      employment_type: "Full-time",icon: "/block.png",
   },
   {
       company: "DSMH LLC",
       posted: "4d ago",
       position: "UI/UX Designer",
       location: "Remote | United States Only",
-      employment_type: "Contract",icon: "/blockchain.png",
+      employment_type: "Contract",icon: "/block.png",
   },
    
 ]
