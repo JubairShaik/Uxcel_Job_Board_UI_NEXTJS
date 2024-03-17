@@ -1,5 +1,3 @@
-
-
 import { job_listings } from "@/constants";
 
 import Image from "next/image";
@@ -20,13 +18,13 @@ const JobCard = ({
       
     `}
   >
-    <div className={`md:w-[64px] md:h-[64px] w-[48px] h-[48px]  rounded-full  flex items-center justify-center `}>
-      <Image src={icon} alt="star" height={64} width={64}   />
+    <div
+      className={`md:w-[64px] md:h-[64px] w-[48px] h-[48px]  rounded-full  flex items-center justify-center `}
+    >
+      <Image src={icon} alt="star" height={64} width={64} />
     </div>
 
     <div className="flex-1 flex flex-col  sm:ml-3 ">
-
-
       <p className=" font-normal font-inter text-slate-900   text-[14px] leading-[24px]">
         {company}
       </p>
@@ -39,7 +37,7 @@ const JobCard = ({
           {location}
         </p>
         <p className="font-normal text-gray-500 text-[10px] sm:text-[12px] leading-[24px]">
-        • {employment_type}
+          • {employment_type}
         </p>
       </div>
     </div>
@@ -50,5 +48,4 @@ const JobCard = ({
   </div>
 );
 
-
-export default JobCard
+export default JobCard;
